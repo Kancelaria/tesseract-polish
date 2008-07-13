@@ -1,0 +1,14 @@
+
+This is the source material used to build Polish language training files for Tesseract OCR (http://code.google.com/p/tesseract-ocr/).
+
+The contents are divided into following directories:
+
+src/utils/ - this contains utility scripts used to manipulate wordlists and text corpuses in order to build dictionaries fed to DAWG tools.
+
+src/training_images/ - this contains a sample file with training Polish texts and a Makefile which contains targets necessary to split the sample file and generate PostScript and TIFF files to use for box training.
+
+src/training_images/boxtiff.pol/ - box training files, generated from the Makefile in the parent directory and then manually processed for training.
+
+src/dictionaries/ - this contains some of the harder to find dictionary data I've collected (actually, generated from intermediate sources)
+
+tessdata/ - this contains the resulting language support files. I've decided to place them in the source repository since building them is currently only a semi-automated process and some things need to be done manually.
