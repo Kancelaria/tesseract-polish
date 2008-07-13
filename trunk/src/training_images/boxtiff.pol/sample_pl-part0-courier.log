@@ -1,0 +1,20 @@
+Tesseract Open Source OCR Engine
+APPLY_BOXES: boxfile 18/1/b ((258,2146),(286,2177)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:15 "m"
+APPLY_BOXES: boxfile 20/1/b ((258,2054),(286,2085)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:16 "m"
+APPLY_BOXES: Unlabelled word blk:1 row:15 allrows:15
+APPLY_BOXES: Unlabelled word blk:1 row:16 allrows:16
+APPLY_BOXES: REBALANCE REQD "b" - target of 6 from 4 labelled samples
+APPLY_BOXES: REBALANCE REQD "m" - target of 20 from 18 labelled samples
+APPLY_BOXES:
+   Boxes read from boxfile:     598
+   Initially labelled blobs:    594 in 17 rows
+   Box failures detected:		     4
+   Duped blobs for rebalance:     4
+   "„" has fewest samples:     1
+				Total unlabelled words:        2
+				Final labelled words:        598
+Generating training data
+TRAINING ... Font name = UnknownFont.
+Generated training data for 598 blobs
