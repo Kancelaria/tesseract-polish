@@ -1,4 +1,5 @@
-# This is the example module in doc/UsingPerlSAX.pod
+# This module handles parsing of XCES-coded text corpus
+# and updating of word occurence count in a hash.
 
 package CorpusHandler;
 
