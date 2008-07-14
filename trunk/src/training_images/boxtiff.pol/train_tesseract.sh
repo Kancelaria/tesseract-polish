@@ -15,11 +15,13 @@ export LC_IDENTIFICATION="pl_PL.UTF-8"
 
 tesseract sample_pl-part0-courier.tif junk nobatch box.train > sample_pl-part0-courier.log 2>&1
 tesseract sample_pl-part0-helvetica.tif junk nobatch box.train > sample_pl-part0-helvetica.log 2>&1
-mftraining sample_pl-part0-courier.tr sample_pl-part0-helvetica.tr
-cntraining sample_pl-part0-courier.tr sample_pl-part0-helvetica.tr
-unicharset_extractor sample_pl-part0-courier.box sample_pl-part0-helvetica.box
+tesseract sample_pl-part0-times.tif junk nobatch box.train > sample_pl-part0-times.log 2>&1
+mftraining *.tr
+cntraining *.tr
+unicharset_extractor sample_pl-part0-courier.box sample_pl-part0-helvetica.box sample_pl-part0-times.box
 mv inttemp pol.inttemp
 mv normproto pol.normproto
 mv pffmtable pol.pffmtable
 mv unicharset pol.unicharset
-echo "Don't forget to correct pol.unicharset!"
+echo
+echo "Don't forget to correct pol.unicharset if your iswalpha/iswdigit functions malfunction (no pun intended)!"
