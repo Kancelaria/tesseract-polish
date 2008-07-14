@@ -1,0 +1,8 @@
+
+- There are semantical mistakes in the example texts (e.g. arithmetic formula 
+in the bootstrap part0 sample). I know, I was quite tired when writing those 
+and when I've noticed them it was too late into the process to redo them. The 
+Tesseract training guide advises to make the sample text realistic, but not 
+THAT realistic :)
+
+
