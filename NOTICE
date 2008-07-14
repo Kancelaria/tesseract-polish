@@ -1,5 +1,10 @@
-          Tesseract Polish Data
-          Copyright 2008 Aleksander Adamowski
+Tesseract Polish Data
+Copyright 2008 Aleksander Adamowski
 
-          This product includes software developed at
-          http://code.google.com/p/tesseract-polish
+This product includes software developed at 
+http://code.google.com/p/tesseract-polish.
+
+Some data files have been derived from dictionary data available under GNU GPL 
+on http://korpus.pl and under multiple licenses (GNU GPL, Creative Commons 
+ShareAlike, LGPL and MPL) from http://www.sjp.pl.
+
