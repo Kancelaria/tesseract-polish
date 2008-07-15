@@ -1,0 +1,12 @@
+Tesseract Open Source OCR Engine
+APPLY_BOXES:
+   Boxes read from boxfile:    1249
+   Initially labelled blobs:   1249 in 22 rows
+   Box failures detected:		     0
+   Duped blobs for rebalance:     0
+   ";" has fewest samples:     1
+				Total unlabelled words:        0
+				Final labelled words:       1249
+Generating training data
+TRAINING ... Font name = UnknownFont.
+Generated training data for 1249 blobs

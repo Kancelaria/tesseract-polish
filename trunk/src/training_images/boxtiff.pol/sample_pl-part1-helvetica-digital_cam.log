@@ -1,0 +1,49 @@
+Tesseract Open Source OCR Engine
+APPLY_BOXES: boxfile 72/3/p ((296,415),(310,454)): FAILURE! box overlaps no blobs or blobs in multiple rows
+APPLY_BOXES: boxfile 82/9/ł ((295,414),(299,434)): WARNING! false row break
+APPLY_BOXES: boxfile 82/10/p ((301,410),(314,431)): FAILURE! box overlaps no blobs or blobs in multiple rows
+APPLY_BOXES: boxfile 82/11/r ((316,415),(323,431)): WARNING! false row break
+APPLY_BOXES: boxfile 95/11/ś ((347,390),(357,410)): WARNING! false row break
+APPLY_BOXES: boxfile 95/11/ś ((347,390),(357,410)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:8 "ę"
+APPLY_BOXES: boxfile 95/12/c ((358,392),(371,407)): WARNING! false row break
+APPLY_BOXES: boxfile 162/15/ś ((467,249),(478,270)): WARNING! false row break
+APPLY_BOXES: boxfile 162/15/ś ((467,249),(478,270)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:14 "y"
+APPLY_BOXES: boxfile 162/16/c ((479,250),(491,266)): WARNING! false row break
+APPLY_BOXES: boxfile 215/5/ś ((477,82),(489,103)): FAILURE! box overlaps no blobs or blobs in multiple rows
+APPLY_BOXES: boxfile 223/2/ł ((133,54),(139,75)): WARNING! false row break
+APPLY_BOXES: boxfile 223/2/ł ((133,54),(139,75)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:20 "j"
+APPLY_BOXES: boxfile 223/3/. ((140,55),(144,60)): WARNING! false row break
+APPLY_BOXES: boxfile 234/7/ł ((656,60),(663,79)): WARNING! false row break
+APPLY_BOXES: boxfile 234/7/ł ((656,60),(663,79)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:20 "y"
+APPLY_BOXES: boxfile 234/8/f ((668,60),(675,81)): WARNING! false row break
+APPLY_BOXES: Unlabelled word blk:1 row:3 allrows:3
+APPLY_BOXES: Unlabelled word blk:1 row:3 allrows:3
+APPLY_BOXES: Unlabelled word blk:1 row:4 allrows:4
+APPLY_BOXES: Unlabelled word blk:1 row:5 allrows:5
+APPLY_BOXES: Unlabelled word blk:1 row:8 allrows:8
+APPLY_BOXES: Unlabelled word blk:1 row:8 allrows:8
+APPLY_BOXES: Unlabelled word blk:1 row:14 allrows:14
+APPLY_BOXES: Unlabelled word blk:1 row:20 allrows:20
+APPLY_BOXES: Unlabelled word blk:1 row:20 allrows:20
+APPLY_BOXES: Unlabelled word blk:1 row:20 allrows:20
+APPLY_BOXES: REBALANCE REQD "p" - target of 46 from 44 labelled samples
+APPLY_BOXES: REBALANCE REQD "j" - target of 27 from 26 labelled samples
+APPLY_BOXES: REBALANCE REQD "y" - target of 55 from 53 labelled samples
+APPLY_BOXES: REBALANCE REQD "ł" - target of 26 from 24 labelled samples
+APPLY_BOXES: REBALANCE REQD "ś" - target of 7 from 4 labelled samples
+APPLY_BOXES: REBALANCE REQD "ę" - target of 12 from 11 labelled samples
+APPLY_BOXES:
+   Boxes read from boxfile:    1233
+   Initially labelled blobs:   1222 in 22 rows
+   Box failures detected:		    11
+   Duped blobs for rebalance:    11
+   "/7" has fewest samples:     1
+				Total unlabelled words:       10
+				Final labelled words:       1233
+Generating training data
+TRAINING ... Font name = UnknownFont.
+Generated training data for 1233 blobs
