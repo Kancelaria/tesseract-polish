@@ -16,9 +16,15 @@ export LC_IDENTIFICATION="pl_PL.UTF-8"
 tesseract sample_pl-part0-courier.tif junk nobatch box.train > sample_pl-part0-courier.log 2>&1
 tesseract sample_pl-part0-helvetica.tif junk nobatch box.train > sample_pl-part0-helvetica.log 2>&1
 tesseract sample_pl-part0-times.tif junk nobatch box.train > sample_pl-part0-times.log 2>&1
+tesseract sample_pl-part1-courier-digital_cam.tif junk nobatch box.train > sample_pl-part1-courier-digital_cam.log 2>&1
+tesseract sample_pl-part1-helvetica-digital_cam.tif junk nobatch box.train > sample_pl-part1-helvetica-digital_cam.log 2>&1
 mftraining *.tr
 cntraining *.tr
-unicharset_extractor sample_pl-part0-courier.box sample_pl-part0-helvetica.box sample_pl-part0-times.box
+unicharset_extractor sample_pl-part0-courier.box \
+	sample_pl-part0-helvetica.box \
+	sample_pl-part0-times.box \
+	sample_pl-part1-courier-digital_cam.box \
+	sample_pl-part1-helvetica-digital_cam.box
 mv inttemp pol.inttemp
 mv normproto pol.normproto
 mv pffmtable pol.pffmtable

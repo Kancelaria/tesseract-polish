@@ -40,8 +40,10 @@ allimages: $(tiffs)
 $(boxfiles): %.box: %.box.txt
 	cp $< $@
 
+# You have to place the current preliminary development pol.* files into your 
+# tessdata for this to work:
 $(boxtxtfiles): %.box.txt: %.tif
-	tesseract $< $(subst .txt,,$@) batch.nochop makebox
+	tesseract $< $(subst .txt,,$@) -l pol batch.nochop makebox
 	
 
 # Requires gs from ghostscript package:
