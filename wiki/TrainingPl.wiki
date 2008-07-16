@@ -18,7 +18,7 @@ Tymczasem uruchamiając `make` w katalogu `training_images`, można uruchomić w
 
 Wymagane jest uprzednio posiadanie zainstalowanych narzędzi:
   * fold (na praktycznie każdym Linuxie jest)
-  * cedilla
+  * cedilla (*uwaga*: na Ubuntu Hardy trzeba zainstalować dodatkowo `texlive` i `texlive-fonts-recommended` a następnie podlinkować go pod lokalizacją starego Tex-a texmf, bo Cedilla ma zakodowane jeszcze stare ścieżki: `ln -s /usr/share/texmf-texlive /usr/share/texmf-tetex`. [https://bugs.launchpad.net/ubuntu/+source/cedilla/+bug/148941 Ubuntu bug 148941], [http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=427522 Debian bug 427522].
   * csplit
   * gs (Ghostscript)
   * tesseract z zainstalowanymi najnowszymi plikami dla języka Polskiego `tessdata/pol.*`, dostępnymi [http://code.google.com/p/tesseract-polish/source/browse/trunk/tessdata/ tutaj]
