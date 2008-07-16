@@ -1,0 +1,91 @@
+#summary Procedura treningu dla Polskiego języka
+
+= Wstęp =
+
+Pierwszym krokiem jest pobranie źródeł projektu z [http://code.google.com/p/tesseract-polish/source/checkout repozytorium SVN].
+
+Następnie należy zapoznać się z treścią pliku [http://code.google.com/p/tesseract-polish/source/browse/trunk/README README] znajdującego się w pobranych źródłach.
+
+= Co jest do zrobienia =
+
+Kwestia plików słownikowych jest w zasadzie załatwiona, więc pozostało jedynie opracowywać nowe, wartościowe pliki `.box` towarzyszące plikom `.tif` z treningowymi obrazami.
+
+Obecnie jestem na takim etapie, że jeszcze nie zdążyłem opracować plików `.box` dla wszystkich przykładów, które sam przygotowałem - w chwili pisania tej strony miałem wykonane tylko pliki z serii `*part0*` i `*part1*`, każdy w trzech wariantach dla różnych czcionek (*courier*, *helvetica*, *times*) - patrz katalog [http://code.google.com/p/tesseract-polish/source/browse/trunk/src/training_images/boxtiff.pol/ boxtiff.pol].
+
+= Co robić =
+
+Tymczasem uruchamiając `make` w katalogu `training_images`, można uruchomić wygenerowanie (w oparciu o plik [http://code.google.com/p/tesseract-polish/source/browse/trunk/src/training_images/sample_pl.txt sample_pl.txt] wszystkich czterech przygotowanych przeze mnie serii tekstów treningowych.
+
+Wymagane jest uprzednio posiadanie zainstalowanych narzędzi:
+  * fold (na praktycznie każdym Linuxie jest)
+  * cedilla
+  * csplit
+  * gs (Ghostscript)
+  * tesseract z zainstalowanymi plikami `tessdata/pol.*`, dostępnymi tutaj
+
+Wynikiem działania `make` będą (między innymi) pliki Postscript z dokumentami treningowymi. Te o nazwach zawierających `part0` oraz `part1` są już obsłużone. Pozostało więc zająć się `part2` i `part3`.
+
+Należy je wydrukować na papierze, a następnie wskanować w 300 dpi (jeśli ktoś ma dużo czasu, może powtórzyć procedurę dla 600 dpi i tych samych dokumentów).
+
+Wynikowe skany należy zapisać w katalogu `boxtiff.pol` w formacie TIFF z odcieniami szarości, skompresowanym LZW (mamy ograniczone miejsce w SVN!). Należy zadbać o to, żeby dysponować skanami wszystkich trzech wariantów dokumentu (dla czcionek *courier*, *helvetica* i *times*).
+
+Następnie, posiłkując się dokumentacją na temat trenowania Tesseract-a (http://code.google.com/p/tesseract-ocr/wiki/TrainingTesseract - rozdział "Make box files"), przygotowujemy pliki box dla tych obrazów TIF (zwracamy uwagę, aby dodać `-l pol` do wywołania tesseract-a):
+
+{{{
+tesseract NAZWA_DOKUMENTU.tif NAZWA_DOKUMENTU.box -l pol batch.nochop makebox
+mv NAZWA_DOKUMENTU.box.txt  NAZWA_DOKUMENTU.box
+}}}
+
+Edytujemy plik `NAZWA_DOKUMENTU.box` swoim ulubionym edytorem wspierającym kodowanie UTF-8.
+
+Należy to robić *uważnie*, *pieczołowicie* i z *pełnym zrozumieniem celu i zasad działania tego procesu*. Jeśli dokument [http://code.google.com/p/tesseract-ocr/wiki/TrainingTesseract TrainingTesseract] jest dla ciebie niezrozumiały, nie zajmuj się tym! Od jakości plików `.box` ściśle zależy przyszła skuteczność rozpoznawania tekstów.
+
+Kiedy zakończymy prace nad plikiem `.box` dla jednego TIFF-a dotyczącego jednej czcionki, zabieramy się za `.box` dla analogicznego TIFF-a dotyczącego kolejnej czcionki.
+
+= Sprawdzenie =
+
+Po zakończeniu prac nad wszystkimi trzema plikami .box dla TIFF-ów dla wszystkich trzech czcionek, dokonujemy dodatkowego sprawdzenia.
+
+Ponieważ TIFF-y te przedstawiają ten sam tekst wydrukowany różną czczionką, to ciąg tekstowy zawarty w każdym pliku `.box` powinien być identyczny z pozostałymi (znaki mogą być inaczej pogrupowane w drójki lub trójki, ale po ich uszeregowaniu powinny utworzyć ten sam ciąg).
+
+Do sprawdzenia tego służą skrypty `check_box.pl` oraz `docdiff_checkfiles.sh`.
+
+Pierwszy przyjmuje treść pliku `.box` na standardowym wejściu i emituje ciąg znaków (bez odstępów) na standardowym wyjściu.
+
+Jeśli wszystkie pliki `.box` z tej samej partii (n.p. `part2`) są poprawne, to `check_box.pl` z każdego z nich wyprodukuje ten sam tekst.
+
+Skrypt `docdiff_checkfiles.sh` wymaga zainstalowania narzędzia `docdiff`, pozwalającego na porównywanie plików znak po znaku.
+
+Jako argumenty podajemy dwa pliki (z założenia o podobnej lub identycznej zawartości) i ujrzymy ich zawartość z wyrodrębnionymi wszelkimi różnicami.
+
+Tak więc sprawdzenie plików `.box` przebiega następująco (na przykładzie plików `.box` dla partii `part2`):
+
+{{{
+./check_box.pl < sample_pl-part1-courier-scan300dpi.box > sample_pl-part1-courier-scan300dpi.check
+./check_box.pl < sample_pl-part1-helvetica-scan300dpi.box > sample_pl-part1-helvetica-scan300dpi.check
+./docdiff_checkfiles.sh sample_pl-part1-courier-scan300dpi.check sample_pl-part1-helvetica-scan300dpi.check
+}}}
+
+Jeśli są jakieś różnice pomiędzy plikiem `.box` dla skanu czcionki courier i helvetica, to zostaną one wyróżnione kolorami (`docdiff` trzeba uruchamiać na kolorowym terminalu ANSI!)
+
+Różnice takie są wynikiem omyłki w pracy nad plikiem `.box` i wymagają jej poprawienia.
+
+Ponieważ mamy trzy różne warianty dla trzech czcionek, to można je połączyć w trzy różne pary. Zatem dokonujemy w sumie trzech sprawdzeń (każda czcionka z każdą inną).
+
+Po poprawieniu wszystkich pomyłek i niezgodności w plikach `.box`, przesyłamy używane pliki `.tif` oraz `.box` do opiekuna projektu, czyli mnie - *aleksander dot adamowski at olo.org.pl*.
+
+= W czym jeszcze można pomóc =
+
+Może się jeszcze przydać pomoc w opracowaniu odpowiednich słowników DAWG języka Polskiego.
+
+Mają one w formie źródłowej postać pliku tekstowego w UTF-8 zawierającego po jednym słowie na wiersz.
+
+Potrzebne są dwa takie pliki słownika: słów najczęściej używanych (maksymalnie 1500 słów) oraz wszelkich słów pozostałych we wszelkich odmianach (ale nie więcej, niż milion, słownik z http://www.sjp.pl zawiera prawie 3,5 miliona, zatem jest za duży).
+
+Dla mnie najlepszą formą byłaby baza słów (we wszystkich odmianach) wzbogacona o informacje o ich częstotliwości występowania w języku. Mogłaby mieć na przykład postać pliku tekstowego z wierszami w formacie "SŁOWO TABULATOR LICZBA_WYSTĄPIEŃ" lub pliku bazy Berkeley DB zawierającego mapę SŁOWO -> LICZBA_WYSTĄPIEŃ.
+
+Dane o częstotliwości lub liczbie wystąpień danej formy słowa powinny być wyliczone w oparciu o dane z jakiegoś korpusu języka Polskiego. Próbowałem tego rodzaju statystyki wydobyć z korpusu 250 mln-segmentowego ze strony http://www.korpus.pl/, ale ma on postać binarną i mi się to nie udało.
+
+Właściwie, gdyby ktoś mi udostępnił wystarczająco duży i reprezentatywny zbiór tekstów w języku Polskim, mógłbym samodzielnie wygenerować taką bazę.
+
+Obecny słownik DAWG najczęściej używanych wyrazów utworzyłem na bazie korpusu Słownika frekwencyjnego polszczyzny współczesnej (http://www.korpus.pl/index.php?page=download - plik `frek.bin.tar.bz2`), a słownik wyrazów pozostałych na bazie starego słownika do ispell-a (http://ispell-pl.sourceforge.net/).
