@@ -21,7 +21,7 @@ Wymagane jest uprzednio posiadanie zainstalowanych narzędzi:
   * cedilla
   * csplit
   * gs (Ghostscript)
-  * tesseract z zainstalowanymi plikami `tessdata/pol.*`, dostępnymi [http://code.google.com/p/tesseract-polish/source/browse/trunk/tessdata/ tutaj]
+  * tesseract z zainstalowanymi najnowszymi plikami dla języka Polskiego `tessdata/pol.*`, dostępnymi [http://code.google.com/p/tesseract-polish/source/browse/trunk/tessdata/ tutaj]
 
 Wynikiem działania `make` będą (między innymi) pliki Postscript z dokumentami treningowymi. Te o nazwach zawierających `part0` oraz `part1` są już obsłużone. Pozostało więc zająć się `part2` i `part3`.
 
