@@ -72,7 +72,7 @@ Różnice takie są wynikiem omyłki w pracy nad plikiem `.box` i wymagają jej 
 
 Ponieważ mamy trzy różne warianty dla trzech czcionek, to można je połączyć w trzy różne pary. Zatem dokonujemy w sumie trzech sprawdzeń (każda czcionka z każdą inną).
 
-Po poprawieniu wszystkich pomyłek i niezgodności w plikach `.box`, przesyłamy używane pliki `.tif` oraz `.box` do opiekuna projektu, czyli mnie - *aleksander dot adamowski at olo.org.pl*.
+Po poprawieniu wszystkich pomyłek i niezgodności w plikach `.box`, przesyłamy używane pliki `.tif` oraz `.box` do opiekuna projektu, czyli mnie - *[http://olo.org.pl aleksander dot adamowski at olo.org.pl]*.
 
 = W czym jeszcze można pomóc =
 
