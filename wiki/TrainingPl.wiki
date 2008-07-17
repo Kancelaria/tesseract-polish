@@ -76,6 +76,8 @@ Po poprawieniu wszystkich pomyłek i niezgodności w plikach `.box`, przesyłamy
 
 = W czym jeszcze można pomóc =
 
+== Słowniki ==
+
 Może się jeszcze przydać pomoc w opracowaniu odpowiednich słowników DAWG języka Polskiego.
 
 Mają one w formie źródłowej postać pliku tekstowego w UTF-8 zawierającego po jednym słowie na wiersz.
@@ -89,3 +91,15 @@ Dane o częstotliwości lub liczbie wystąpień danej formy słowa powinny być 
 Właściwie, gdyby ktoś mi udostępnił wystarczająco duży i reprezentatywny zbiór tekstów w języku Polskim, mógłbym samodzielnie wygenerować taką bazę.
 
 Obecny słownik DAWG najczęściej używanych wyrazów utworzyłem na bazie korpusu Słownika frekwencyjnego polszczyzny współczesnej (http://www.korpus.pl/index.php?page=download - plik `frek.bin.tar.bz2`), a słownik wyrazów pozostałych na bazie starego słownika do ispell-a (http://ispell-pl.sourceforge.net/).
+
+== Ocena efektywności obecnej wersji ==
+
+Aby zorientować się, czy prace idą we właściwym kierunku oraz gdzie występują najczęściej błędy, należy przeprowadzać okresowe testy skuteczności rozpoznawania znaków.
+
+Przyda się pomoc osoby, która jest chętna takie raporty opracowywać.
+
+Opracowanie pierwszego raportu powinno polegać na przygotowaniu reprezentatywnych skanów jakichś rzeczywistych tekstów oraz przepuszczeniu ich przez Tesseract wyposażony w nasze pliki `pol.*`.
+
+Raport powinien zawierać statystyki na temat ilości błędów oraz wskazywać najczęściej powtarzające się błędy - co pozwoli skupić się na nich w kolejnych sesjach treningowych.
+
+W kolejnych raportach należy skorzystać z tych samych skanów aby wyniki można było porównywać ze sobą.
