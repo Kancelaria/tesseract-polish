@@ -23,7 +23,7 @@ Wymagane jest uprzednio posiadanie zainstalowanych narzędzi:
   * gs (Ghostscript)
   * tesseract z zainstalowanymi najnowszymi plikami dla języka Polskiego `tessdata/pol.*`, dostępnymi [http://code.google.com/p/tesseract-polish/source/browse/trunk/tessdata/ tutaj]
 
-Wynikiem działania `make` będą (między innymi) pliki Postscript z dokumentami treningowymi. Te o nazwach zawierających `part0` oraz `part1` są już obsłużone. Pozostało więc zająć się `part2` i `part3`.
+Wynikiem działania `make` będą (między innymi) pliki Postscript z dokumentami treningowymi. Te o nazwach zawierających `part0`, `part1` oraz `part2` są już obsłużone. Pozostało więc zająć się `part3`.
 
 Należy je wydrukować na papierze, a następnie wskanować w 300 dpi (jeśli ktoś ma dużo czasu, może powtórzyć procedurę dla 600 dpi i tych samych dokumentów).
 
@@ -52,13 +52,13 @@ Do sprawdzenia tego służą skrypty `check_box.pl` oraz `docdiff_checkfiles.sh`
 
 Pierwszy przyjmuje treść pliku `.box` na standardowym wejściu i emituje ciąg znaków (bez odstępów) na standardowym wyjściu.
 
-Jeśli wszystkie pliki `.box` z tej samej partii (n.p. `part2`) są poprawne, to `check_box.pl` z każdego z nich wyprodukuje ten sam tekst.
+Jeśli wszystkie pliki `.box` z tej samej partii (n.p. `part3`) są poprawne, to `check_box.pl` z każdego z nich wyprodukuje ten sam tekst.
 
 Skrypt `docdiff_checkfiles.sh` wymaga zainstalowania narzędzia `docdiff`, pozwalającego na porównywanie plików znak po znaku.
 
 Jako argumenty podajemy dwa pliki (z założenia o podobnej lub identycznej zawartości) i ujrzymy ich zawartość z wyrodrębnionymi wszelkimi różnicami.
 
-Tak więc sprawdzenie plików `.box` przebiega następująco (na przykładzie plików `.box` dla partii `part2`):
+Tak więc sprawdzenie plików `.box` przebiega następująco (na przykładzie plików `.box` dla partii `part1`):
 
 {{{
 ./check_box.pl < sample_pl-part1-courier-scan300dpi.box > sample_pl-part1-courier-scan300dpi.check
