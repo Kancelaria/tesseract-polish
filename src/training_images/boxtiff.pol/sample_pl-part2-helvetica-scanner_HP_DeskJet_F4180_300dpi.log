@@ -1,0 +1,14 @@
+Tesseract Open Source OCR Engine
+APPLY_BOXES: Unlabelled word blk:1 row:3 allrows:3
+APPLY_BOXES: Unlabelled word blk:1 row:45 allrows:45
+APPLY_BOXES:
+   Boxes read from boxfile:    2962
+   Initially labelled blobs:   2962 in 49 rows
+   Box failures detected:		     0
+   Duped blobs for rebalance:     0
+   "eł" has fewest samples:     1
+				Total unlabelled words:        2
+				Final labelled words:       2962
+Generating training data
+TRAINING ... Font name = UnknownFont.
+Generated training data for 2962 blobs
