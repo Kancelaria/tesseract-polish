@@ -30,10 +30,13 @@ Należy je wydrukować na papierze, a następnie wskanować w 300 dpi (jeśli kt
 Wynikowe skany należy zapisać w katalogu `boxtiff.pol` w formacie TIFF z odcieniami szarości, skompresowanym LZW (mamy ograniczone miejsce w SVN!). Należy zadbać o to, żeby dysponować skanami wszystkich trzech wariantów dokumentu (dla czcionek *courier*, *helvetica* i *times*).
 
 Plikom należy nadać nazwy niosące odpowiednie informacje - w tym rozdzielczość skanowania, model urządzenia drukującego, opcjonalnie model urządzenia skanującego. Przyjęty wzór nazwy to:
+
 {{{
 NAZWA_DOKUMENTU-NAZWA_CZCIONKI-MODEL_DRUKARKI-MODEL_SKANERA-ROZDZIELCZOSC_DPI.ROZSZERZENIE
 }}}
-, n.p.:
+
+Przykładowo:
+
 {{{sample_pl-part2-courier-scanner_HP_DeskJet_F4180_300dpi.tif
 }}}
 
