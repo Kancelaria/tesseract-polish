@@ -37,7 +37,8 @@ NAZWA_DOKUMENTU-NAZWA_CZCIONKI-MODEL_DRUKARKI-MODEL_SKANERA-ROZDZIELCZOSC_DPI.RO
 
 Przykładowo:
 
-{{{sample_pl-part2-courier-scanner_HP_DeskJet_F4180_300dpi.tif
+{{{
+sample_pl-part2-courier-scanner_HP_DeskJet_F4180_300dpi.tif
 }}}
 
 W katalogu `boxtiff.pol` można zobaczyć również pliki o krótszych nazwach - są to pliki, które nie były drukowane i skanowane, lecz bezpośrednio skonwertowane z Postscript do TIFF na komputerze. Były używane do wstępnego treningu i nie ma już potrzeby tworzyć nowych w tej technologii.
