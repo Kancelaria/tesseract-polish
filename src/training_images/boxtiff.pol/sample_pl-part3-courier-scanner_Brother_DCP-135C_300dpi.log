@@ -1,0 +1,30 @@
+Tesseract Open Source OCR Engine
+APPLY_BOXES: boxfile 37/1/m ((1987,1710),(2016,1732)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:29 "m"
+APPLY_BOXES: boxfile 48/1/m ((228,1299),(257,1322)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:37 "m"
+APPLY_BOXES: boxfile 51/1/m ((2041,1252),(2071,1274)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:38 "a"
+APPLY_BOXES: boxfile 57/1/N ((640,1024),(669,1052)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:42 "A"
+APPLY_BOXES: boxfile 61/16/. ((624,880),(631,888)): FAILURE! box overlaps no blobs or blobs in multiple rows
+APPLY_BOXES: Unlabelled word blk:1 row:37 allrows:37
+APPLY_BOXES: Unlabelled word blk:1 row:38 allrows:38
+APPLY_BOXES: Unlabelled word blk:1 row:42 allrows:42
+APPLY_BOXES: Unlabelled word blk:1 row:45 allrows:45
+APPLY_BOXES: REBALANCE REQD "a" - target of 222 from 221 labelled samples
+APPLY_BOXES: REBALANCE REQD "m" - target of 78 from 73 labelled samples
+APPLY_BOXES: REBALANCE REQD "." - target of 46 from 45 labelled samples
+APPLY_BOXES: REBALANCE REQD "A" - target of 7 from 6 labelled samples
+APPLY_BOXES: REBALANCE REQD "N" - target of 4 from 3 labelled samples
+APPLY_BOXES:
+   Boxes read from boxfile:    2877
+   Initially labelled blobs:   2868 in 57 rows
+   Box failures detected:		     9
+   Duped blobs for rebalance:     9
+   "%" has fewest samples:     1
+				Total unlabelled words:        4
+				Final labelled words:       2877
+Generating training data
+TRAINING ... Font name = UnknownFont.
+Generated training data for 2877 blobs

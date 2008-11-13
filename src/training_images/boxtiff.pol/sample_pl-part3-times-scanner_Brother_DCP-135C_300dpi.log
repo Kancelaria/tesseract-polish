@@ -1,0 +1,642 @@
+Tesseract Open Source OCR Engine
+APPLY_BOXES: boxfile 11/8/i ((830,3086),(843,3121)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:1 "k"
+APPLY_BOXES: boxfile 12/5/e ((943,3085),(964,3119)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:1 "b"
+APPLY_BOXES: boxfile 14/3/c ((1068,3086),(1088,3110)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:1 "o"
+APPLY_BOXES: boxfile 14/8/t ((1166,3086),(1181,3120)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:1 "k"
+APPLY_BOXES: boxfile 17/3/t ((1372,3086),(1385,3120)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:1 "k"
+APPLY_BOXES: boxfile 19/2/y ((1420,3076),(1444,3109)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:1 "r"
+APPLY_BOXES: boxfile 23/9/i ((460,3041),(473,3075)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:2 "k"
+APPLY_BOXES: boxfile 24/3/ź ((614,3040),(636,3074)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:2 "a"
+APPLY_BOXES: boxfile 26/3/i ((692,3041),(706,3074)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:2 "k"
+APPLY_BOXES: boxfile 27/2/z ((819,3040),(840,3074)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:2 "d"
+APPLY_BOXES: boxfile 27/5/ł ((874,3040),(887,3074)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:2 "a"
+APPLY_BOXES: boxfile 27/10/d ((991,3040),(1015,3074)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:2 "o"
+APPLY_BOXES: boxfile 36/24/o ((621,2984),(645,3019)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:3 "p"
+APPLY_BOXES: boxfile 40/9/ż ((1023,2995),(1044,3026)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:3 "a"
+APPLY_BOXES: boxfile 41/2/k ((1262,2995),(1285,3029)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:3 "a"
+APPLY_BOXES: boxfile 47/6/n ((570,2949),(594,2973)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:4 "a"
+APPLY_BOXES: boxfile 49/2/w ((699,2949),(730,2972)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:4 "t"
+APPLY_BOXES: boxfile 53/2/a ((957,2949),(977,2972)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:4 "r"
+APPLY_BOXES: boxfile 59/4/e ((1323,2949),(1343,2983)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:4 "b"
+APPLY_BOXES: boxfile 59/6/r ((1363,2949),(1380,2973)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:4 "z"
+APPLY_BOXES: boxfile 63/1/c ((1440,2948),(1467,2972)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:4 "o"
+APPLY_BOXES: boxfile 69/4/t ((677,2904),(692,2937)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:5 "k"
+APPLY_BOXES: boxfile 71/3/y ((793,2896),(817,2928)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:5 "w"
+APPLY_BOXES: boxfile 74/2/u ((1420,2902),(1443,2929)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:5 "ł"
+APPLY_BOXES: boxfile 77/8/e ((435,2858),(457,2892)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:6 "b"
+APPLY_BOXES: boxfile 78/2/a ((528,2858),(548,2882)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:6 "r"
+APPLY_BOXES: boxfile 83/2/u ((897,2858),(919,2882)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:6 "r"
+APPLY_BOXES: boxfile 84/6/z ((1024,2858),(1045,2882)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:6 "r"
+APPLY_BOXES: boxfile 85/1/ż ((1117,2858),(1138,2889)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:6 "a"
+APPLY_BOXES: boxfile 87/18/c ((1531,2850),(1551,2881)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:6 "ę"
+APPLY_BOXES: boxfile 88/18/ż ((511,2804),(533,2843)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:7 "ą"
+APPLY_BOXES: boxfile 89/3/y ((568,2802),(592,2846)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:7 "ł"
+APPLY_BOXES: boxfile 91/4/d ((792,2811),(816,2845)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:7 "o"
+APPLY_BOXES: boxfile 92/8/w ((953,2812),(983,2836)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:7 "r"
+APPLY_BOXES: boxfile 95/15/y ((1400,2801),(1423,2837)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:7 "ł"
+APPLY_BOXES: boxfile 98/3/o ((449,2765),(473,2799)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:8 "b"
+APPLY_BOXES: boxfile 99/2/n ((485,2766),(508,2794)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:8 "t"
+APPLY_BOXES: boxfile 101/6/i ((250,2673),(264,2708)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:9 "k"
+APPLY_BOXES: boxfile 104/10/c ((848,2673),(869,2697)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:9 "o"
+APPLY_BOXES: boxfile 105/7/ż ((1039,2667),(1059,2705)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:9 "ą"
+APPLY_BOXES: boxfile 106/4/a ((1127,2673),(1148,2702)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:9 "t"
+APPLY_BOXES: boxfile 110/3/n ((1470,2673),(1492,2697)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:9 "a"
+APPLY_BOXES: boxfile 117/5/U ((951,2628),(988,2662)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:10 "N"
+APPLY_BOXES: boxfile 119/7/ż ((1343,2627),(1363,2658)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:10 "a"
+APPLY_BOXES: boxfile 125/4/W ((486,2583),(527,2616)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:11 "T"
+APPLY_BOXES: boxfile 125/7/Z ((587,2583),(618,2616)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:11 "R"
+APPLY_BOXES: boxfile 125/9/Ć ((650,2583),(681,2627)): FAILURE! box overlaps no blobs or blobs in multiple rows
+APPLY_BOXES: boxfile 125/19/s ((902,2584),(919,2608)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:11 "r"
+APPLY_BOXES: boxfile 126/6/o ((1032,2572),(1056,2606)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:11 "p"
+APPLY_BOXES: boxfile 126/10/e ((1127,2581),(1147,2607)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:11 "z"
+APPLY_BOXES: boxfile 128/5/a ((1353,2583),(1375,2607)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:11 "z"
+APPLY_BOXES: boxfile 137/3/m ((484,2537),(519,2561)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:12 "r"
+APPLY_BOXES: boxfile 143/1/t ((898,2537),(914,2565)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:12 "f"
+APPLY_BOXES: boxfile 154/2/r ((626,2490),(643,2516)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:13 "g"
+APPLY_BOXES: boxfile 155/2/m ((663,2491),(696,2516)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:13 "a"
+APPLY_BOXES: boxfile 156/3/n ((774,2491),(796,2515)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:13 "a"
+APPLY_BOXES: boxfile 157/7/ł ((1035,2482),(1049,2525)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:13 "p"
+APPLY_BOXES: boxfile 161/4/r ((1242,2481),(1259,2514)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:13 "g"
+APPLY_BOXES: boxfile 161/6/m ((1279,2492),(1313,2516)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:13 "a"
+APPLY_BOXES: boxfile 162/3/n ((1390,2491),(1412,2515)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:13 "a"
+APPLY_BOXES: boxfile 162/11/n ((1534,2489),(1556,2518)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:13 "t"
+APPLY_BOXES: boxfile 168/1/t ((297,2445),(313,2474)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:14 "f"
+APPLY_BOXES: boxfile 179/2/d ((1156,2445),(1178,2479)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:14 "o"
+APPLY_BOXES: boxfile 186/2// ((506,2389),(518,2433)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:15 "g"
+APPLY_BOXES: boxfile 187/9/m ((715,2398),(748,2425)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:15 "t"
+APPLY_BOXES: boxfile 191/5/z ((1041,2399),(1063,2423)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:15 "a"
+APPLY_BOXES: boxfile 204/8/z ((1157,2262),(1178,2286)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:17 "r"
+APPLY_BOXES: boxfile 205/2/c ((1197,2261),(1218,2286)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:17 "e"
+APPLY_BOXES: boxfile 215/5/r ((752,2216),(771,2240)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:18 "a"
+APPLY_BOXES: boxfile 216/2/z ((791,2216),(813,2250)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:18 "d"
+APPLY_BOXES: boxfile 216/6/r ((884,2217),(901,2242)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:18 "P"
+APPLY_BOXES: boxfile 217/4/y ((1059,2207),(1083,2240)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:18 "w"
+APPLY_BOXES: boxfile 219/2/i ((1138,2217),(1152,2250)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:18 "k"
+APPLY_BOXES: boxfile 220/2/e ((1278,2216),(1297,2243)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:18 "b"
+APPLY_BOXES: boxfile 220/7/c ((1381,2216),(1402,2250)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:18 "ś"
+APPLY_BOXES: boxfile 231/5/r ((1092,2171),(1107,2199)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:19 "t"
+APPLY_BOXES: boxfile 233/6/d ((1337,2170),(1361,2204)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:19 "o"
+APPLY_BOXES: boxfile 236/10/4 ((490,2124),(513,2158)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:20 "#"
+APPLY_BOXES: boxfile 236/17/ł ((641,2124),(655,2158)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:20 "a"
+APPLY_BOXES: boxfile 236/21/z ((724,2124),(744,2148)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:20 "r"
+APPLY_BOXES: boxfile 239/2/a ((812,2124),(834,2153)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:20 "t"
+APPLY_BOXES: boxfile 239/6/e ((911,2123),(933,2158)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:20 "b"
+APPLY_BOXES: boxfile 254/4/z ((727,2078),(746,2102)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:21 "r"
+APPLY_BOXES: boxfile 257/3/a ((1022,2078),(1043,2103)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:21 "z"
+APPLY_BOXES: boxfile 257/11/n ((1207,2078),(1229,2102)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:21 "a"
+APPLY_BOXES: boxfile 262/6/w ((659,2033),(689,2056)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:22 "r"
+APPLY_BOXES: boxfile 267/7/o ((1344,2032),(1366,2057)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:22 "p"
+APPLY_BOXES: boxfile 267/10/r ((1411,2032),(1427,2056)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:22 "a"
+APPLY_BOXES: boxfile 271/12/z ((791,1986),(812,2010)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:23 "r"
+APPLY_BOXES: boxfile 279/3/c ((257,1934),(278,1965)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:24 "ę"
+APPLY_BOXES: boxfile 284/4/z ((754,1940),(777,1964)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:24 "r"
+APPLY_BOXES: boxfile 289/2/i ((446,1850),(457,1884)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:25 "r"
+APPLY_BOXES: boxfile 299/5/d ((1322,1848),(1345,1882)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:25 "o"
+APPLY_BOXES: boxfile 306/4/y ((380,1794),(402,1828)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:26 "r"
+APPLY_BOXES: boxfile 307/2/z ((552,1804),(572,1828)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:26 "r"
+APPLY_BOXES: boxfile 310/9/e ((1249,1794),(1270,1828)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:26 "p"
+APPLY_BOXES: boxfile 313/3/z ((1415,1803),(1435,1827)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:26 "a"
+APPLY_BOXES: boxfile 315/9/u ((453,1757),(475,1781)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:27 "r"
+APPLY_BOXES: boxfile 321/2/c ((1312,1757),(1333,1782)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:27 "o"
+APPLY_BOXES: boxfile 325/3/i ((259,1712),(270,1745)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:28 "r"
+APPLY_BOXES: boxfile 331/5/y ((1228,1702),(1250,1739)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:28 "t"
+APPLY_BOXES: boxfile 332/3/k ((1361,1712),(1385,1744)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:28 "a"
+APPLY_BOXES: boxfile 335/17/c ((499,1665),(519,1690)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:29 "e"
+APPLY_BOXES: boxfile 337/11/r ((886,1665),(904,1689)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:29 "a"
+APPLY_BOXES: boxfile 339/3/l ((955,1665),(967,1699)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:29 "a"
+APPLY_BOXES: boxfile 340/2/n ((1207,1665),(1229,1690)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:29 "a"
+APPLY_BOXES: boxfile 348/3/r ((988,1620),(1004,1649)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:30 "t"
+APPLY_BOXES: boxfile 351/1/i ((1039,1620),(1052,1655)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:30 "f"
+APPLY_BOXES: boxfile 353/8/i ((1351,1619),(1365,1653)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:30 "k"
+APPLY_BOXES: boxfile 353/12/C ((1455,1618),(1487,1652)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:30 "G"
+APPLY_BOXES: boxfile 354/14/c ((517,1574),(538,1598)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:31 "o"
+APPLY_BOXES: boxfile 354/16/t ((559,1565),(575,1603)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:31 "y"
+APPLY_BOXES: boxfile 356/5/z ((686,1574),(708,1598)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:31 "r"
+APPLY_BOXES: boxfile 359/7/n ((986,1573),(1009,1606)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:31 "A"
+APPLY_BOXES: boxfile 363/6/c ((1340,1573),(1361,1597)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:31 "e"
+APPLY_BOXES: boxfile 363/9/n ((1405,1573),(1426,1597)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:31 "a"
+APPLY_BOXES: boxfile 363/12/m ((1461,1572),(1496,1596)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:31 "z"
+APPLY_BOXES: boxfile 368/3/m ((416,1529),(450,1553)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:32 "r"
+APPLY_BOXES: boxfile 369/5/z ((847,1528),(868,1552)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:32 "r"
+APPLY_BOXES: boxfile 370/4/i ((935,1528),(947,1563)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:32 "f"
+APPLY_BOXES: boxfile 373/6/y ((1238,1519),(1262,1557)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:32 "t"
+APPLY_BOXES: boxfile 378/10/r ((361,1391),(379,1424)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:34 "k"
+APPLY_BOXES: boxfile 378/17/ł ((531,1381),(543,1424)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:34 "p"
+APPLY_BOXES: boxfile 381/4/ł ((764,1390),(778,1424)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:34 "a"
+APPLY_BOXES: boxfile 382/3/i ((817,1391),(829,1425)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:34 "z"
+APPLY_BOXES: boxfile 385/2/z ((1081,1390),(1102,1415)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:34 "a"
+APPLY_BOXES: boxfile 385/5/i ((1170,1391),(1183,1425)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:34 "n"
+APPLY_BOXES: boxfile 387/6/r ((1337,1389),(1354,1423)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:34 "t"
+APPLY_BOXES: boxfile 389/1/k ((1374,1389),(1398,1423)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:34 "u"
+APPLY_BOXES: boxfile 391/1/r ((1435,1379),(1450,1414)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:34 "u"
+APPLY_BOXES: boxfile 393/7/n ((394,1345),(416,1369)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:35 "r"
+APPLY_BOXES: boxfile 393/13/r ((538,1345),(554,1373)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:35 "a"
+APPLY_BOXES: boxfile 396/3/c ((719,1337),(740,1369)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:35 "ę"
+APPLY_BOXES: boxfile 397/4/r ((830,1345),(844,1378)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:35 "h"
+APPLY_BOXES: boxfile 398/2/i ((936,1344),(949,1379)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:35 "k"
+APPLY_BOXES: boxfile 399/3/i ((1124,1345),(1137,1379)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:35 "m"
+APPLY_BOXES: boxfile 399/7/i ((1198,1345),(1210,1379)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:35 "n"
+APPLY_BOXES: boxfile 399/10/m ((1250,1345),(1285,1371)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:35 "I"
+APPLY_BOXES: boxfile 400/4/y ((1422,1334),(1444,1372)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:35 "t"
+APPLY_BOXES: boxfile 402/4/r ((302,1299),(319,1333)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:36 "h"
+APPLY_BOXES: boxfile 404/2/i ((411,1299),(424,1333)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:36 "k"
+APPLY_BOXES: boxfile 407/7/i ((700,1299),(713,1333)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:36 "n"
+APPLY_BOXES: boxfile 408/4/ł ((834,1298),(850,1332)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:36 "a"
+APPLY_BOXES: boxfile 414/2/y ((1076,1289),(1098,1323)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:36 "r"
+APPLY_BOXES: boxfile 420/2/y ((552,1243),(575,1287)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:37 "ł"
+APPLY_BOXES: boxfile 421/2/z ((712,1253),(733,1277)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:37 "r"
+APPLY_BOXES: boxfile 423/13/d ((1171,1252),(1196,1286)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:37 "o"
+APPLY_BOXES: boxfile 424/2/o ((1217,1242),(1241,1276)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:37 "p"
+APPLY_BOXES: boxfile 430/5/r ((842,1208),(855,1241)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:38 "k"
+APPLY_BOXES: boxfile 432/4/o ((956,1197),(979,1231)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:38 "p"
+APPLY_BOXES: boxfile 434/5/r ((1208,1208),(1226,1241)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:38 "h"
+APPLY_BOXES: boxfile 438/4/z ((1385,1207),(1406,1231)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:38 "a"
+APPLY_BOXES: boxfile 439/4/r ((206,1162),(223,1196)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:39 "k"
+APPLY_BOXES: boxfile 442/7/c ((731,1161),(751,1185)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:39 "e"
+APPLY_BOXES: boxfile 442/17/ę ((978,1150),(999,1184)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:39 "p"
+APPLY_BOXES: boxfile 442/22/z ((1077,1161),(1099,1184)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:39 "r"
+APPLY_BOXES: boxfile 442/27/ł ((1190,1152),(1205,1195)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:39 "p"
+APPLY_BOXES: boxfile 444/3/z ((1563,1161),(1584,1184)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:39 "r"
+APPLY_BOXES: boxfile 445/14/k ((456,1116),(480,1150)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:40 "a"
+APPLY_BOXES: boxfile 446/2/ł ((638,1106),(650,1150)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:40 "p"
+APPLY_BOXES: boxfile 448/4/r ((832,1116),(852,1141)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:40 "k"
+APPLY_BOXES: boxfile 460/1/i ((720,1023),(734,1058)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:41 "f"
+APPLY_BOXES: boxfile 460/3/m ((750,1023),(786,1047)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:41 "r"
+APPLY_BOXES: boxfile 470/2/z ((1431,1023),(1452,1046)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:41 "r"
+APPLY_BOXES: boxfile 472/15/P ((495,978),(521,1011)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:42 "R"
+APPLY_BOXES: boxfile 472/17/N ((554,978),(585,1011)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:42 "A"
+APPLY_BOXES: boxfile 474/5/o ((727,968),(750,1001)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:42 "p"
+APPLY_BOXES: boxfile 476/2/z ((789,978),(809,1001)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:42 "r"
+APPLY_BOXES: boxfile 477/2/d ((827,976),(851,1011)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:42 "e"
+APPLY_BOXES: boxfile 479/3/n ((1028,978),(1051,1002)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:42 "r"
+APPLY_BOXES: boxfile 481/3/o ((1434,977),(1457,1004)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:42 "p"
+APPLY_BOXES: boxfile 487/2/z ((752,932),(773,955)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:43 "r"
+APPLY_BOXES: boxfile 490/9/n ((1029,932),(1052,956)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:43 "z"
+APPLY_BOXES: boxfile 490/14/d ((1142,932),(1166,965)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:43 "ó"
+APPLY_BOXES: boxfile 491/6/r ((1279,932),(1294,960)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:43 "t"
+APPLY_BOXES: boxfile 496/3/a ((781,887),(800,911)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:44 "r"
+APPLY_BOXES: boxfile 497/7/a ((1152,885),(1173,909)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:44 "r"
+APPLY_BOXES: boxfile 499/7/> ((1669,885),(1697,910)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:44 "m"
+APPLY_BOXES: boxfile 500/3/r ((181,841),(198,865)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:45 "a"
+APPLY_BOXES: boxfile 500/19/t ((499,840),(513,869)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:45 "t"
+APPLY_BOXES: boxfile 503/10// ((918,840),(934,874)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:45 "m"
+APPLY_BOXES: boxfile 504/3/r ((963,840),(981,864)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:45 "a"
+APPLY_BOXES: boxfile 507/2/T ((1153,840),(1181,874)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:45 "/"
+APPLY_BOXES: boxfile 508/2/E ((1225,840),(1253,874)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:45 "W"
+APPLY_BOXES: boxfile 509/2/E ((1283,841),(1314,875)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:45 "N"
+APPLY_BOXES: boxfile 511/5/i ((232,748),(245,783)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:46 "k"
+APPLY_BOXES: boxfile 512/4/l ((526,748),(539,782)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:46 "k"
+APPLY_BOXES: boxfile 512/6/m ((560,747),(595,772)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:46 "a"
+APPLY_BOXES: boxfile 518/1/t ((457,610),(473,638)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:48 "r"
+APPLY_BOXES: boxfile 519/15/r ((466,564),(483,593)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:49 "a"
+APPLY_BOXES: boxfile 524/6/z ((449,427),(470,452)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:51 "a"
+APPLY_BOXES: boxfile 525/1/y ((577,418),(600,452)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:51 "ż"
+APPLY_BOXES: boxfile 526/3/n ((693,428),(715,452)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:51 "w"
+APPLY_BOXES: boxfile 527/5/z ((855,426),(878,450)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:51 "a"
+APPLY_BOXES: boxfile 533/10/r ((503,334),(518,358)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:52 "a"
+APPLY_BOXES: boxfile 534/2/r ((607,335),(625,362)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:52 "t"
+APPLY_BOXES: boxfile 535/3/y ((659,325),(680,363)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:52 "t"
+APPLY_BOXES: boxfile 537/3/a ((798,334),(817,358)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:52 "r"
+APPLY_BOXES: boxfile 537/7/r ((885,334),(903,362)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:52 "t"
+APPLY_BOXES: boxfile 543/6/u ((237,244),(260,267)): FAILURE! box overlaps blob in labelled word
+APPLY_BOXES: ALSO ignoring corrupted char blk:1 row:54 "r"
+APPLY_BOXES: Unlabelled word blk:1 row:1 allrows:1
+APPLY_BOXES: Unlabelled word blk:1 row:1 allrows:1
+APPLY_BOXES: Unlabelled word blk:1 row:1 allrows:1
+APPLY_BOXES: Unlabelled word blk:1 row:1 allrows:1
+APPLY_BOXES: Unlabelled word blk:1 row:1 allrows:1
+APPLY_BOXES: Unlabelled word blk:1 row:1 allrows:1
+APPLY_BOXES: Unlabelled word blk:1 row:2 allrows:2
+APPLY_BOXES: Unlabelled word blk:1 row:2 allrows:2
+APPLY_BOXES: Unlabelled word blk:1 row:2 allrows:2
+APPLY_BOXES: Unlabelled word blk:1 row:2 allrows:2
+APPLY_BOXES: Unlabelled word blk:1 row:3 allrows:3
+APPLY_BOXES: Unlabelled word blk:1 row:3 allrows:3
+APPLY_BOXES: Unlabelled word blk:1 row:3 allrows:3
+APPLY_BOXES: Unlabelled word blk:1 row:4 allrows:4
+APPLY_BOXES: Unlabelled word blk:1 row:4 allrows:4
+APPLY_BOXES: Unlabelled word blk:1 row:4 allrows:4
+APPLY_BOXES: Unlabelled word blk:1 row:4 allrows:4
+APPLY_BOXES: Unlabelled word blk:1 row:4 allrows:4
+APPLY_BOXES: Unlabelled word blk:1 row:4 allrows:4
+APPLY_BOXES: Unlabelled word blk:1 row:5 allrows:5
+APPLY_BOXES: Unlabelled word blk:1 row:5 allrows:5
+APPLY_BOXES: Unlabelled word blk:1 row:5 allrows:5
+APPLY_BOXES: Unlabelled word blk:1 row:6 allrows:6
+APPLY_BOXES: Unlabelled word blk:1 row:6 allrows:6
+APPLY_BOXES: Unlabelled word blk:1 row:6 allrows:6
+APPLY_BOXES: Unlabelled word blk:1 row:6 allrows:6
+APPLY_BOXES: Unlabelled word blk:1 row:6 allrows:6
+APPLY_BOXES: Unlabelled word blk:1 row:7 allrows:7
+APPLY_BOXES: Unlabelled word blk:1 row:7 allrows:7
+APPLY_BOXES: Unlabelled word blk:1 row:7 allrows:7
+APPLY_BOXES: Unlabelled word blk:1 row:7 allrows:7
+APPLY_BOXES: Unlabelled word blk:1 row:7 allrows:7
+APPLY_BOXES: Unlabelled word blk:1 row:8 allrows:8
+APPLY_BOXES: Unlabelled word blk:1 row:8 allrows:8
+APPLY_BOXES: Unlabelled word blk:1 row:9 allrows:9
+APPLY_BOXES: Unlabelled word blk:1 row:9 allrows:9
+APPLY_BOXES: Unlabelled word blk:1 row:9 allrows:9
+APPLY_BOXES: Unlabelled word blk:1 row:9 allrows:9
+APPLY_BOXES: Unlabelled word blk:1 row:9 allrows:9
+APPLY_BOXES: Unlabelled word blk:1 row:10 allrows:10
+APPLY_BOXES: Unlabelled word blk:1 row:10 allrows:10
+APPLY_BOXES: Unlabelled word blk:1 row:10 allrows:10
+APPLY_BOXES: Unlabelled word blk:1 row:11 allrows:11
+APPLY_BOXES: Unlabelled word blk:1 row:11 allrows:11
+APPLY_BOXES: Unlabelled word blk:1 row:11 allrows:11
+APPLY_BOXES: Unlabelled word blk:1 row:11 allrows:11
+APPLY_BOXES: Unlabelled word blk:1 row:11 allrows:11
+APPLY_BOXES: Unlabelled word blk:1 row:11 allrows:11
+APPLY_BOXES: Unlabelled word blk:1 row:12 allrows:12
+APPLY_BOXES: Unlabelled word blk:1 row:12 allrows:12
+APPLY_BOXES: Unlabelled word blk:1 row:13 allrows:13
+APPLY_BOXES: Unlabelled word blk:1 row:13 allrows:13
+APPLY_BOXES: Unlabelled word blk:1 row:13 allrows:13
+APPLY_BOXES: Unlabelled word blk:1 row:13 allrows:13
+APPLY_BOXES: Unlabelled word blk:1 row:13 allrows:13
+APPLY_BOXES: Unlabelled word blk:1 row:13 allrows:13
+APPLY_BOXES: Unlabelled word blk:1 row:13 allrows:13
+APPLY_BOXES: Unlabelled word blk:1 row:13 allrows:13
+APPLY_BOXES: Unlabelled word blk:1 row:14 allrows:14
+APPLY_BOXES: Unlabelled word blk:1 row:14 allrows:14
+APPLY_BOXES: Unlabelled word blk:1 row:15 allrows:15
+APPLY_BOXES: Unlabelled word blk:1 row:15 allrows:15
+APPLY_BOXES: Unlabelled word blk:1 row:17 allrows:17
+APPLY_BOXES: Unlabelled word blk:1 row:17 allrows:17
+APPLY_BOXES: Unlabelled word blk:1 row:18 allrows:18
+APPLY_BOXES: Unlabelled word blk:1 row:18 allrows:18
+APPLY_BOXES: Unlabelled word blk:1 row:18 allrows:18
+APPLY_BOXES: Unlabelled word blk:1 row:18 allrows:18
+APPLY_BOXES: Unlabelled word blk:1 row:18 allrows:18
+APPLY_BOXES: Unlabelled word blk:1 row:18 allrows:18
+APPLY_BOXES: Unlabelled word blk:1 row:19 allrows:19
+APPLY_BOXES: Unlabelled word blk:1 row:20 allrows:20
+APPLY_BOXES: Unlabelled word blk:1 row:20 allrows:20
+APPLY_BOXES: Unlabelled word blk:1 row:20 allrows:20
+APPLY_BOXES: Unlabelled word blk:1 row:20 allrows:20
+APPLY_BOXES: Unlabelled word blk:1 row:20 allrows:20
+APPLY_BOXES: Unlabelled word blk:1 row:21 allrows:21
+APPLY_BOXES: Unlabelled word blk:1 row:21 allrows:21
+APPLY_BOXES: Unlabelled word blk:1 row:21 allrows:21
+APPLY_BOXES: Unlabelled word blk:1 row:22 allrows:22
+APPLY_BOXES: Unlabelled word blk:1 row:22 allrows:22
+APPLY_BOXES: Unlabelled word blk:1 row:23 allrows:23
+APPLY_BOXES: Unlabelled word blk:1 row:24 allrows:24
+APPLY_BOXES: Unlabelled word blk:1 row:24 allrows:24
+APPLY_BOXES: Unlabelled word blk:1 row:25 allrows:25
+APPLY_BOXES: Unlabelled word blk:1 row:25 allrows:25
+APPLY_BOXES: Unlabelled word blk:1 row:26 allrows:26
+APPLY_BOXES: Unlabelled word blk:1 row:26 allrows:26
+APPLY_BOXES: Unlabelled word blk:1 row:26 allrows:26
+APPLY_BOXES: Unlabelled word blk:1 row:26 allrows:26
+APPLY_BOXES: Unlabelled word blk:1 row:27 allrows:27
+APPLY_BOXES: Unlabelled word blk:1 row:27 allrows:27
+APPLY_BOXES: Unlabelled word blk:1 row:28 allrows:28
+APPLY_BOXES: Unlabelled word blk:1 row:28 allrows:28
+APPLY_BOXES: Unlabelled word blk:1 row:28 allrows:28
+APPLY_BOXES: Unlabelled word blk:1 row:29 allrows:29
+APPLY_BOXES: Unlabelled word blk:1 row:29 allrows:29
+APPLY_BOXES: Unlabelled word blk:1 row:29 allrows:29
+APPLY_BOXES: Unlabelled word blk:1 row:29 allrows:29
+APPLY_BOXES: Unlabelled word blk:1 row:30 allrows:30
+APPLY_BOXES: Unlabelled word blk:1 row:30 allrows:30
+APPLY_BOXES: Unlabelled word blk:1 row:30 allrows:30
+APPLY_BOXES: Unlabelled word blk:1 row:30 allrows:30
+APPLY_BOXES: Unlabelled word blk:1 row:31 allrows:31
+APPLY_BOXES: Unlabelled word blk:1 row:31 allrows:31
+APPLY_BOXES: Unlabelled word blk:1 row:31 allrows:31
+APPLY_BOXES: Unlabelled word blk:1 row:31 allrows:31
+APPLY_BOXES: Unlabelled word blk:1 row:31 allrows:31
+APPLY_BOXES: Unlabelled word blk:1 row:31 allrows:31
+APPLY_BOXES: Unlabelled word blk:1 row:31 allrows:31
+APPLY_BOXES: Unlabelled word blk:1 row:32 allrows:32
+APPLY_BOXES: Unlabelled word blk:1 row:32 allrows:32
+APPLY_BOXES: Unlabelled word blk:1 row:32 allrows:32
+APPLY_BOXES: Unlabelled word blk:1 row:32 allrows:32
+APPLY_BOXES: Unlabelled word blk:1 row:34 allrows:34
+APPLY_BOXES: Unlabelled word blk:1 row:34 allrows:34
+APPLY_BOXES: Unlabelled word blk:1 row:34 allrows:34
+APPLY_BOXES: Unlabelled word blk:1 row:34 allrows:34
+APPLY_BOXES: Unlabelled word blk:1 row:34 allrows:34
+APPLY_BOXES: Unlabelled word blk:1 row:34 allrows:34
+APPLY_BOXES: Unlabelled word blk:1 row:35 allrows:35
+APPLY_BOXES: Unlabelled word blk:1 row:35 allrows:35
+APPLY_BOXES: Unlabelled word blk:1 row:35 allrows:35
+APPLY_BOXES: Unlabelled word blk:1 row:35 allrows:35
+APPLY_BOXES: Unlabelled word blk:1 row:35 allrows:35
+APPLY_BOXES: Unlabelled word blk:1 row:35 allrows:35
+APPLY_BOXES: Unlabelled word blk:1 row:35 allrows:35
+APPLY_BOXES: Unlabelled word blk:1 row:36 allrows:36
+APPLY_BOXES: Unlabelled word blk:1 row:36 allrows:36
+APPLY_BOXES: Unlabelled word blk:1 row:36 allrows:36
+APPLY_BOXES: Unlabelled word blk:1 row:36 allrows:36
+APPLY_BOXES: Unlabelled word blk:1 row:36 allrows:36
+APPLY_BOXES: Unlabelled word blk:1 row:37 allrows:37
+APPLY_BOXES: Unlabelled word blk:1 row:37 allrows:37
+APPLY_BOXES: Unlabelled word blk:1 row:37 allrows:37
+APPLY_BOXES: Unlabelled word blk:1 row:37 allrows:37
+APPLY_BOXES: Unlabelled word blk:1 row:38 allrows:38
+APPLY_BOXES: Unlabelled word blk:1 row:38 allrows:38
+APPLY_BOXES: Unlabelled word blk:1 row:38 allrows:38
+APPLY_BOXES: Unlabelled word blk:1 row:39 allrows:39
+APPLY_BOXES: Unlabelled word blk:1 row:39 allrows:39
+APPLY_BOXES: Unlabelled word blk:1 row:39 allrows:39
+APPLY_BOXES: Unlabelled word blk:1 row:39 allrows:39
+APPLY_BOXES: Unlabelled word blk:1 row:39 allrows:39
+APPLY_BOXES: Unlabelled word blk:1 row:39 allrows:39
+APPLY_BOXES: Unlabelled word blk:1 row:40 allrows:40
+APPLY_BOXES: Unlabelled word blk:1 row:41 allrows:41
+APPLY_BOXES: Unlabelled word blk:1 row:41 allrows:41
+APPLY_BOXES: Unlabelled word blk:1 row:41 allrows:41
+APPLY_BOXES: Unlabelled word blk:1 row:42 allrows:42
+APPLY_BOXES: Unlabelled word blk:1 row:42 allrows:42
+APPLY_BOXES: Unlabelled word blk:1 row:42 allrows:42
+APPLY_BOXES: Unlabelled word blk:1 row:42 allrows:42
+APPLY_BOXES: Unlabelled word blk:1 row:42 allrows:42
+APPLY_BOXES: Unlabelled word blk:1 row:43 allrows:43
+APPLY_BOXES: Unlabelled word blk:1 row:43 allrows:43
+APPLY_BOXES: Unlabelled word blk:1 row:43 allrows:43
+APPLY_BOXES: Unlabelled word blk:1 row:44 allrows:44
+APPLY_BOXES: Unlabelled word blk:1 row:44 allrows:44
+APPLY_BOXES: Unlabelled word blk:1 row:44 allrows:44
+APPLY_BOXES: Unlabelled word blk:1 row:45 allrows:45
+APPLY_BOXES: Unlabelled word blk:1 row:45 allrows:45
+APPLY_BOXES: Unlabelled word blk:1 row:45 allrows:45
+APPLY_BOXES: Unlabelled word blk:1 row:45 allrows:45
+APPLY_BOXES: Unlabelled word blk:1 row:45 allrows:45
+APPLY_BOXES: Unlabelled word blk:1 row:45 allrows:45
+APPLY_BOXES: Unlabelled word blk:1 row:46 allrows:46
+APPLY_BOXES: Unlabelled word blk:1 row:46 allrows:46
+APPLY_BOXES: Unlabelled word blk:1 row:48 allrows:48
+APPLY_BOXES: Unlabelled word blk:1 row:51 allrows:51
+APPLY_BOXES: Unlabelled word blk:1 row:51 allrows:51
+APPLY_BOXES: Unlabelled word blk:1 row:51 allrows:51
+APPLY_BOXES: Unlabelled word blk:1 row:51 allrows:51
+APPLY_BOXES: Unlabelled word blk:1 row:52 allrows:52
+APPLY_BOXES: Unlabelled word blk:1 row:52 allrows:52
+APPLY_BOXES: Unlabelled word blk:1 row:52 allrows:52
+APPLY_BOXES: Unlabelled word blk:1 row:54 allrows:54
+APPLY_BOXES: REBALANCE REQD "P" - target of 6 from 4 labelled samples
+APPLY_BOXES: REBALANCE REQD "o" - target of 191 from 172 labelled samples
+APPLY_BOXES: REBALANCE REQD "t" - target of 133 from 108 labelled samples
+APPLY_BOXES: REBALANCE REQD "w" - target of 122 from 116 labelled samples
+APPLY_BOXES: REBALANCE REQD "i" - target of 179 from 160 labelled samples
+APPLY_BOXES: REBALANCE REQD "e" - target of 232 from 220 labelled samples
+APPLY_BOXES: REBALANCE REQD "r" - target of 136 from 73 labelled samples
+APPLY_BOXES: REBALANCE REQD "d" - target of 69 from 59 labelled samples
+APPLY_BOXES: REBALANCE REQD "z" - target of 130 from 100 labelled samples
+APPLY_BOXES: REBALANCE REQD "a" - target of 222 from 177 labelled samples
+APPLY_BOXES: REBALANCE REQD "g" - target of 33 from 30 labelled samples
+APPLY_BOXES: REBALANCE REQD "ó" - target of 21 from 20 labelled samples
+APPLY_BOXES: REBALANCE REQD "l" - target of 64 from 62 labelled samples
+APPLY_BOXES: REBALANCE REQD "n" - target of 148 from 131 labelled samples
+APPLY_BOXES: REBALANCE REQD "c" - target of 116 from 103 labelled samples
+APPLY_BOXES: REBALANCE REQD "p" - target of 87 from 74 labelled samples
+APPLY_BOXES: REBALANCE REQD "s" - target of 110 from 109 labelled samples
+APPLY_BOXES: REBALANCE REQD "k" - target of 76 from 55 labelled samples
+APPLY_BOXES: REBALANCE REQD "b" - target of 37 from 31 labelled samples
+APPLY_BOXES: REBALANCE REQD "h" - target of 41 from 38 labelled samples
+APPLY_BOXES: REBALANCE REQD "y" - target of 86 from 72 labelled samples
+APPLY_BOXES: REBALANCE REQD "u" - target of 54 from 48 labelled samples
+APPLY_BOXES: REBALANCE REQD "ę" - target of 29 from 25 labelled samples
+APPLY_BOXES: REBALANCE REQD "m" - target of 78 from 66 labelled samples
+APPLY_BOXES: REBALANCE REQD "ź" - target of 3 from 2 labelled samples
+APPLY_BOXES: REBALANCE REQD "ł" - target of 33 from 21 labelled samples
+APPLY_BOXES: REBALANCE REQD "ą" - target of 28 from 26 labelled samples
+APPLY_BOXES: REBALANCE REQD "ż" - target of 13 from 7 labelled samples
+APPLY_BOXES: REBALANCE REQD "f" - target of 10 from 5 labelled samples
+APPLY_BOXES: FATALITY - 1 labelled samples of "Z" - target is 2:
+Z:[5a]
+APPLY_BOXES: REBALANCE REQD "R" - target of 7 from 5 labelled samples
+APPLY_BOXES: REBALANCE REQD "A" - target of 7 from 5 labelled samples
+APPLY_BOXES: REBALANCE REQD "W" - target of 6 from 4 labelled samples
+APPLY_BOXES: REBALANCE REQD "G" - target of 8 from 7 labelled samples
+APPLY_BOXES: FATALITY - 1 labelled samples of "N" - target is 4:
+N:[4e]
+APPLY_BOXES: FATALITY - 0 labelled samples of "U" - target is 1:
+U:[55]
+APPLY_BOXES: REBALANCE REQD "T" - target of 5 from 3 labelled samples
+APPLY_BOXES: FATALITY - 0 labelled samples of "Ć" - target is 1:
+Ć:[106]
+APPLY_BOXES: REBALANCE REQD "I" - target of 4 from 3 labelled samples
+APPLY_BOXES: REBALANCE REQD "/" - target of 9 from 6 labelled samples
+APPLY_BOXES: REBALANCE REQD "ś" - target of 15 from 14 labelled samples
+APPLY_BOXES: FATALITY - 1 labelled samples of "4" - target is 2:
+4:[34]
+APPLY_BOXES: FATALITY - 0 labelled samples of "#" - target is 1:
+#:[23]
+APPLY_BOXES: REBALANCE REQD "C" - target of 4 from 3 labelled samples
+APPLY_BOXES: FATALITY - 1 labelled samples of ">" - target is 2:
+>:[3e]
+APPLY_BOXES: FATALITY - 1 labelled samples of "E" - target is 3:
+E:[45]
+APPLY_BOXES:
+   Boxes read from boxfile:    2877
+   Initially labelled blobs:   2478 in 57 rows
+   Box failures detected:		   399
+   Duped blobs for rebalance:   388
+   "U" has fewest samples:     0
+				Total unlabelled words:      177
+				Final labelled words:       2866
+Generating training data
+TRAINING ... Font name = UnknownFont.
+Generated training data for 2866 blobs
