@@ -10,7 +10,9 @@ Następnie należy zapoznać się z treścią pliku [http://code.google.com/p/te
 
 Kwestia plików słownikowych jest w zasadzie załatwiona, więc pozostało jedynie opracowywać nowe, wartościowe pliki `.box` towarzyszące plikom `.tif` z treningowymi obrazami.
 
-Obecnie jestem na takim etapie, że jeszcze nie zdążyłem opracować plików `.box` dla wszystkich przykładów, które sam przygotowałem - w chwili pisania tej strony miałem wykonane tylko pliki z serii `*part0*` i `*part1*`, każdy w trzech wariantach dla różnych czcionek (*courier*, *helvetica*, *times*) - patrz katalog [http://code.google.com/p/tesseract-polish/source/browse/trunk/src/training_images/boxtiff.pol/ boxtiff.pol].
+Obecnie jestem na takim etapie, że jeszcze nie zdążyłem opracować plików `.box` dla  przykładów, które sam przygotowałem, w rozdzielczości 600 DPI.
+
+W chwili pisania tej strony dysponowałem tylko plikami w rozdzielczości 300 DPI, każdy w trzech wariantach dla różnych czcionek (*courier*, *helvetica*, *times*), opracowanymi przeze mnie i osoby współpracujące - patrz katalog [http://code.google.com/p/tesseract-polish/source/browse/trunk/src/training_images/boxtiff.pol/ boxtiff.pol].
 
 = Co robić =
 
@@ -23,9 +25,9 @@ Wymagane jest uprzednio posiadanie zainstalowanych narzędzi:
   * gs (Ghostscript)
   * tesseract z zainstalowanymi najnowszymi plikami dla języka Polskiego `tessdata/pol.*`, dostępnymi [http://code.google.com/p/tesseract-polish/source/browse/trunk/tessdata/ tutaj]
 
-Wynikiem działania `make` będą (między innymi) pliki Postscript z dokumentami treningowymi. Te o nazwach zawierających `part0`, `part1` oraz `part2` są już obsłużone. Pozostało więc zająć się `part3`.
+Wynikiem działania `make` będą (między innymi) pliki Postscript z dokumentami treningowymi.
 
-Należy je wydrukować na papierze, a następnie wskanować w 300 dpi (jeśli ktoś ma dużo czasu, może powtórzyć procedurę dla 600 dpi i tych samych dokumentów).
+Należy je wydrukować na papierze, a następnie wskanować w 600 dpi. Przy tym warto zwrócić uwagę, czy dokumenty te nie były już przez kogoś przetworzone dla danych czcionek w danej rozdzielczości DPI (obecnie wszystkie dokumenty ).
 
 Wynikowe skany należy zapisać w katalogu `boxtiff.pol` w formacie TIFF z odcieniami szarości, skompresowanym LZW (mamy ograniczone miejsce w SVN!). Należy zadbać o to, żeby dysponować skanami wszystkich trzech wariantów dokumentu (dla czcionek *courier*, *helvetica* i *times*).
 
