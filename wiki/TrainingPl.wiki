@@ -12,7 +12,7 @@ Kwestia plików słownikowych jest w zasadzie załatwiona, więc pozostało jedy
 
 Obecnie jestem na takim etapie, że jeszcze nie zdążyłem opracować plików `.box` dla  przykładów, które sam przygotowałem, w rozdzielczości 600 DPI.
 
-W chwili pisania tej strony dysponowałem tylko plikami w rozdzielczości 300 DPI, każdy w trzech wariantach dla różnych czcionek (*courier*, *helvetica*, *times*), opracowanymi przeze mnie i osoby współpracujące - patrz katalog [http://code.google.com/p/tesseract-polish/source/browse/trunk/src/training_images/boxtiff.pol/ boxtiff.pol].
+W chwili pisania tej strony dysponowałem tylko plikami w rozdzielczości 300 DPI, każdy w trzech wariantach dla różnych czcionek (*courier*, *helvetica*, *times*), opracowanymi przeze mnie i [http://code.google.com/p/tesseract-polish/source/browse/trunk/ATTRIBUTIONS osoby współpracujące] - patrz katalog [http://code.google.com/p/tesseract-polish/source/browse/trunk/src/training_images/boxtiff.pol/ boxtiff.pol].
 
 = Co robić =
 
