@@ -12,3 +12,6 @@ src/training_images/boxtiff.pol/ - box training files, generated from the Makefi
 src/dictionaries/ - this contains some of the harder to find dictionary data I've collected (actually, generated from intermediate sources)
 
 tessdata/ - this contains the resulting language support files. I've decided to place them in the source repository since building them is currently only a semi-automated process and some things need to be done manually.
+
+The tessdata directory also contains licensing terms and attributions - the files are located there to simplify Gentoo ebuild that doesn't include all the source training images (which are very heavy).
+
